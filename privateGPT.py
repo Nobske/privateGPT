@@ -11,6 +11,8 @@ import time
 
 load_dotenv()
 
+# Fork
+
 embeddings_model_name = os.environ.get("EMBEDDINGS_MODEL_NAME")
 persist_directory = os.environ.get('PERSIST_DIRECTORY')
 
